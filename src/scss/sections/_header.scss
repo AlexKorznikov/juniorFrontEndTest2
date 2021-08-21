@@ -1,14 +1,20 @@
 .header {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../img/bg1.png") no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../img/bg1.png") no-repeat fixed;
   background-size: cover;
+
   padding: 50px 0 190px;
+  min-width: 320px;
 
   @media (max-width: 1600px) {
     padding: 40px 0 90px;
   }
 
+  @media (max-width: 1199px) {
+    background-attachment: unset;
+  }
+
   @media (max-width: 767px){
-    padding: 40px 15px 51px;
+    padding: 40px 10px 51px;
   }
 
   .header-logo__img {

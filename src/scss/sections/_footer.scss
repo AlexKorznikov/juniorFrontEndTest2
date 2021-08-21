@@ -7,15 +7,19 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       grid-template-columns: 1fr;
-      justify-items: center;
     }
 
     .footer-left-col {
       display: flex;
       align-items: center;
       gap: 30px;
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+        text-align: center;
+      }
 
       .footer__logo-img {
         width: 55px;
@@ -36,8 +40,9 @@
     .footer-right-col {
       justify-self: end;
 
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         justify-self: center;
+        text-align: center;
       }
 
       .footer-contact-info {

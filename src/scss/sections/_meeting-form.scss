@@ -3,11 +3,24 @@
 
   &__title {
     margin: 0 auto;
-    padding-top: 70px;
+    padding-top: 40px;
     color: #ffffff;
     text-align: center;
     font-size: 35px;
     line-height: 45px;
     max-width: 740px;
+
+    @media (max-width: 991px) {
+      max-width: 540px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
+
+  .calendly-inline-widget {
+    margin-top: 30px;
   }
 }

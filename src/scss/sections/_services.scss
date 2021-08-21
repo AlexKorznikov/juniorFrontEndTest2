@@ -58,10 +58,9 @@
 
 .service {
   color: $graphite;
-
+  
   @media (max-width: 767px) {
-    max-width: 340px;
-    padding: 35px 40px 0;
+    padding: 35px 15px 0;
   }
 
   &__title {
@@ -80,6 +79,7 @@
     line-height: 30px;
 
     @media (max-width: 767px) {
+      max-width: 340px;
       font-size: 16px;
       line-height: 25px;
     }

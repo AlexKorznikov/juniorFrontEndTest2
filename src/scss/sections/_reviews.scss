@@ -1,0 +1,81 @@
+.reviews {
+  padding-top: 50px;
+  min-width: 320px;
+  width: 100%;
+  font-family: $OS;
+
+  &-container {
+    padding: 0 13vw;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-size: 35px;
+    line-height: 35px;
+    color: #2D2D2D;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+}
+
+.reviews-posts {
+  display: flex;
+  justify-content: center;
+
+  .review {
+    color: #2D2D2D;
+    max-width: 540px;
+
+    //@media (max-width: 768px) {
+    //  min-height: 200px;
+    //}
+
+    &__text {
+      font-style: italic;
+      font-size: 18px;
+      line-height: 30px;
+      padding-right: 50px;
+
+      //@media (max-width: 768px) {
+      //  font-size: 14px;
+      //  line-height: 25px;
+      //  padding-right: 0;
+      //}
+    }
+
+    &__author {
+      font-family: 'Open Bold', sans-serif;
+      padding-top: 25px;
+      font-size: 22px;
+      line-height: 30px;
+      font-weight: 700;
+
+      //@media (max-width: 768px) {
+      //  font-size: 20px;
+      //  line-height: 25px;
+      //}
+    }
+
+    &__author-title {
+      line-height: 30px;
+      font-size: 14px;
+
+      //@media (max-width: 768px) {
+      //  font-size: 14px;
+      //  line-height: 25px;
+      //}
+    }
+
+    &__company {
+      line-height: 18px;
+      font-size: 14px;
+
+      //@media (max-width: 768px) {
+      //  font-size: 14px;
+      //  line-height: 25px;
+      //}
+    }
+  }
+}
+
+

@@ -1,0 +1,13 @@
+.meeting-form {
+  background-color: $darkBlue;
+
+  &__title {
+    margin: 0 auto;
+    padding-top: 70px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    line-height: 45px;
+    max-width: 740px;
+  }
+}

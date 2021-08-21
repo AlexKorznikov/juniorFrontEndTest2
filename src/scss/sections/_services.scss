@@ -1,0 +1,91 @@
+.services {
+  font-family: $OS;
+  padding-bottom: 65px;
+  min-width: 320px;
+  
+  &__title {
+    text-align: center;
+    padding: 50px;
+    color: $graphite;
+    font-size: 40px;
+    line-height: 55px;
+
+    @media (max-width: 767px){
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+
+  .service:nth-of-type(1) .service__img-fluid {
+    background: url("../../img/icons/icon1.svg") no-repeat;
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+
+    @media (max-width: 767px) {
+      background: url("../../img/icons/icon1small.svg") no-repeat;
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .service:nth-of-type(2) .service__img-fluid {
+    background: url("../../img/icons/icon2.svg") no-repeat;
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+
+    @media (max-width: 767px) {
+      background: url("../../img/icons/icon2small.svg") no-repeat;
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .service:nth-of-type(3) .service__img-fluid {
+    background: url("../../img/icons/icon3.svg") no-repeat;
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+
+    @media (max-width: 767px) {
+      background: url("../../img/icons/icon3small.svg") no-repeat;
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+
+.service {
+  color: $graphite;
+
+  @media (max-width: 767px) {
+    max-width: 340px;
+    padding: 35px 40px 0;
+  }
+
+  &__title {
+    padding-top: 20px;
+    font-size: 30px;
+    line-height: 30px;
+
+    @media (max-width: 767px) {
+      font-size: 25px;
+    }
+  }
+
+  &__description {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+
+    @media (max-width: 767px) {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+}
+
+
+
+

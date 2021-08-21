@@ -1,0 +1,22 @@
+.companies {
+  min-width: 320px;
+
+  .companies-container {
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 65px;
+
+    .companies-logos {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .company:not(:last-of-type) {
+      padding-bottom: 35px;
+    }
+  }
+
+}
